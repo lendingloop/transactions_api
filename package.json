@@ -1,0 +1,25 @@
+{
+  "name": "transactions_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigopk/transactions_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigopk/transactions_api/issues"
+  },
+  "homepage": "https://github.com/rodrigopk/transactions_api#readme",
+  "dependencies": {
+    "netlify-lambda": "^2.0.15"
+  }
+}
